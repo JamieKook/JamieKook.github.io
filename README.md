@@ -1,1 +1,2 @@
-# JamieKook.github.io
+# Basic-Portfolio
+First created portfolio
