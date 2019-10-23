@@ -1,2 +1,2 @@
-# Basic-Portfolio
-First created portfolio
+# ResumeUnique
+My attempt at making a resume website from scratch
