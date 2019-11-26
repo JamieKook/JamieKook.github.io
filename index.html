@@ -4,6 +4,7 @@
         <title>Jamie Kook</title>
         <meta charset="UTF-8">
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 
     <body>
@@ -14,8 +15,9 @@
             </ul>
         </nav>
 
-        <header>
-            <div class="intro">
+        <header class="row header">
+           
+            <div class="col-sm-8 intro">
                 <h1>Jamie Kook</h1>
                 <div class="line"></div>
                 <h2>Web Developer</h2>
@@ -24,7 +26,7 @@
                     <button>Contact Me</button>
                 </div>      
             </div>
-            <div class="headshot"></div>
+            <div class="col-sm-4 headshot d-flex align-items-center justify-content-center"><img src="assets/imgs/headshot.jpg"></div>
         </header>
 
         <div class="about">
@@ -41,32 +43,60 @@
 
         <div id="education">
             <h1>Education</h1>
-            <div class="under ed">
-                <img src="assets/imgs/UofU.jpg">
-                <h2>Bachelor of Science, Biology</h2>
-                <h3>University of Utah</h3>
-                <p>ACCESS Program for Women in Math and Science</p>
-                <p>Biology Undergraduate Research Program</p>
-                <p>Honor's College Community Leadership Scholar</p>
-                <h4>2010</h4>
-            </div>
-            <div class="grad ed">
-                <img src="assets/imgs/Peabody.jpg">
-                <h2>Master of Education, Secondary Science</h2> 
-                <h3>Vanderbilt University</h3>
-                <p>Peabody Honors Scholarship Cohort</p>
-                <p>Peabody Graduate Student Association- Teaching and Learning Co-Chair</p>
-                <h4>2013</h4>
-            </div>
-            <div class="bootcamp ed">
-                <img src="assets/imgs/vandy.jpg">
-                <h2>Web Development Coding Bootcamp</h2>
-                <h3>Vanderbilt University</h3>
-                <p>HTML, CSS, JavaScript, jQuery, Bootstrap, MySQL, MongoDB, Node.js, Express, MERN Stack, Heroku, Git, Java, QA</p>
-                <h4>2020</h4>
+            <div class="row d-flex justify-content-center">
+                <div class=" col-md-4 under ed">
+                    <img src="assets/imgs/UofU.jpg">
+                    <h2>Bachelor of Science, Biology</h2>
+                    <h3>University of Utah</h3>
+                    <p>ACCESS Program for Women in Math and Science</p>
+                    <p>Biology Undergraduate Research Program</p>
+                    <p>Honor's College Community Leadership Scholar</p>
+                    <h4>2010</h4>
+                </div>
+                <div class="col-md-4 grad ed">
+                    <img src="assets/imgs/Peabody.jpg">
+                    <h2>Master of Education, Secondary Science</h2> 
+                    <h3>Vanderbilt University</h3>
+                    <p>Peabody Honors Scholarship Cohort</p>
+                    <p>Peabody Graduate Student Association- Teaching and Learning Co-Chair</p>
+                    <h4>2013</h4>
+                </div>
+                <div class="col-md-4 bootcamp ed">
+                    <img src="assets/imgs/vandy.jpg">
+                    <h2>Web Development Coding Bootcamp</h2>
+                    <h3>Vanderbilt University</h3>
+                    <p>HTML, CSS, JavaScript, jQuery, Bootstrap, MySQL, MongoDB, Node.js, Express, MERN Stack, Heroku, Git, Java, QA</p>
+                    <h4>2020</h4>
+                </div>
             </div>
         </div>
 
+        <div class="text-center" id="soft-skills">
+            <h1 class="intro-ss">Skill Set</h1>
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-4 ss communication">
+                    <h3>Communication and Collaboration</h3>
+                </div>
+                <div class="col-sm-4 ss present">
+                    <h3>Presentation</h3>
+                </div>
+                <div class="col-sm-4 ss science">
+                    <h3>Critical Thinking</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 ss research">  
+                    <h3>Research</h3>
+                </div>
+                <div class="col-sm-4 ss software">
+                    <h3>Software Development</h3>
+                </div>
+                <div class="col-sm-4 ss organize">
+                    <h3>Organization</h3>
+                </div>
+
+            </div>
+        </div>
     </body>
 
 </html>

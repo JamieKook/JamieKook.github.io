@@ -34,13 +34,11 @@ li {
 
 .intro {
     background-color: #CBE6EA;
-    width: 73%; 
-    height: 250px; 
+    /* height: 250px;  */
     padding: 30px; 
     text-align: center; 
     display: inline-block; 
-    clear: left; 
-    margin-left: 15px; 
+    clear: left;  
 }
 
 h1{
@@ -62,15 +60,18 @@ button {
 }
 
 .headshot{
-    background-image: url(/assets/imgs/headshot.jpg); 
-    background-position: 20%; 
-    width: 25%;
-    height: 250px;  
+    /* background-image: url(/assets/imgs/headshot.jpg); 
+    background-position: 20%;  */
+    /* width: 25%; */
+    /* height: 250px;  
     background-size: cover;
-    background-repeat: no-repeat;
-    float: left;  
+    background-repeat: no-repeat; */
+    /* float: left;   */
 }
 
+.header {
+    background-color: #CBE6EA;
+}
 header::after{
     content: " ";
     clear: both; 
@@ -110,25 +111,29 @@ header::after{
     margin-bottom: 20px;  
     width: 100%; 
     padding: 50px; 
-    border: none; 
+    margin-top: 20px; 
 }
 
 .ed {
-    width: 32%; 
-    height: 550px; 
-    float: left; 
+    /* width: 32%;  */
+    /* height: 550px;  */
+    /* float: left;  */
     padding: 30px; 
+    border: thick white solid; 
+    min-width: 340px;
+     
 }
 
 .grad {
-    margin: 0 1%; 
+    /* margin: 0 1%;  */
     /*background-color: #C5ECFC;*/
     background-color: #CBE6EA;
+    
  
 }
 
 .under {
-    margin-left: 1%; 
+    /* margin-left: 1%;  */
    /* background-color: #BDD4F2;*/
    background-color: #CBE6EA;
   
@@ -143,4 +148,48 @@ header::after{
 img {
     height: 200px;
 
+}
+
+.ss{
+    background-color: #CBE6EA;
+    border: white thick solid; 
+    min-height: 200px; 
+    padding: 25px; 
+    
+
+}
+
+.intro-ss{
+    background-color: #CBE6EA;
+    border: white thick solid; 
+    padding: 50px;  
+}
+
+.communication{
+    background-image: url(/assets/imgs/collaboration.jpg);
+    background-size: cover;
+}
+
+.present {
+    background-image: url(/assets/imgs/present.jpg);
+    background-size: cover;
+}
+.science {
+    background-image: url(/assets/imgs/math.jpg);
+    background-size: cover;
+}
+
+.research {
+    background-image: url(/assets/imgs/data.jpg);
+    background-size: cover;
+}
+
+.organize {
+    background-image: url(/assets/imgs/organization.jpg);
+    background-size: cover;
+}
+
+.software{
+    background-image: url(/assets/imgs/software.jpg);
+    background-size: cover;
 }
