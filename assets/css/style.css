@@ -120,7 +120,7 @@ header::after{
     /* float: left;  */
     padding: 30px; 
     border: thick white solid; 
-    min-width: 340px;
+    /* min-width: 340px; */
      
 }
 
@@ -147,6 +147,7 @@ header::after{
 
 img {
     height: 200px;
+    max-width: 340px; 
 
 }
 
