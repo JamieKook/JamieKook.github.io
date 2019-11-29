@@ -66,9 +66,13 @@ button {
 
 .header {
     background-color: #CBE6EA;
+    position: relative; 
+    top: 60px; 
 }
 
 .about {
+    position: relative; 
+    top: 60px; 
     background-image: url(/assets/imgs/mountain.jpg);
     background-size: cover;
     height: 500px; 
@@ -91,7 +95,8 @@ button {
 }
 
 .education {
-
+    position: relative;
+    top: 60px; 
     text-align: center; 
 
 
@@ -147,8 +152,20 @@ img {
     border: white thick solid; 
     min-height: 200px; 
     padding: 25px; 
-    
+}
 
+.ss .btn{
+    background-color: rgba(255,255,255,0.6); 
+}
+
+.ss .btn:hover{
+    background-color: rgba(255,255,255,1); 
+    font-size: 1.5rem; 
+    border: thin black solid; 
+}
+
+.ss .btn:focus{
+    box-shadow: 0 0 0 0.2rem rgba(203,230,234,0.5)
 }
 
 .intro-ss{
@@ -157,6 +174,20 @@ img {
     padding: 50px;  
 }
 
+/* #soft-skills{
+    position: relative;
+    top:60px; 
+} */
+nav{
+    position:fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 10; 
+}
+nav a{
+    color: white;
+    font-size: 1.5rem; 
+}
 .communication{
     background-image: url(/assets/imgs/collaboration.jpg);
     background-size: cover;
