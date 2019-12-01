@@ -120,7 +120,11 @@ button {
     height: 100%; 
     overflow: auto; 
 }*/
-
+.languages{
+    background-image: url(/assets/imgs/forest.jpg);
+    background-size: cover;
+    height: 600px; 
+}
 .container {
     width: 80%;
     margin: 30px auto;
