@@ -16,7 +16,9 @@ body {
 }
 nav {
    /* background-color:#AECCD4; darker color if wanting contrast*/
-   background-color:  #8CA7AB; 
+   /* background-color:  #8CA7AB;  */
+   background-image: url(/assets/imgs/tree.jpg); 
+   background-size: cover; 
    text-align: right; 
     /* margin-bottom: 25px;  */
     padding: 10px; 
@@ -78,7 +80,38 @@ button {
     height: 500px; 
     margin-top: 20px; 
     overflow: scroll; 
-    clear: both; 
+   padding-top: 60px;  
+}
+
+#port-desk{
+    background-image: url(/assets/imgs/portfolio.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 800px; 
+    background-position: center;
+    display: flex; 
+    justify-content: center;
+}
+
+.fas{
+    font-size: xx-large;
+}
+/* #port-pic{
+    height: auto;
+    width: 900px;
+} */
+
+#port-paper{
+    margin: 0 auto; 
+    position: absolute; 
+    top: 48%; 
+  
+    /* z-index: 10;  */
+
+}
+
+#portfolio a{
+    color: black;
 }
 
 /*.overlay {
