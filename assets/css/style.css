@@ -19,6 +19,7 @@ nav {
    /* background-color:  #8CA7AB;  */
    background-image: url(/assets/imgs/tree.jpg); 
    background-size: cover; 
+   background-position: bottom;
    text-align: right; 
     /* margin-bottom: 25px;  */
     padding: 10px; 
