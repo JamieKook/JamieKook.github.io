@@ -120,7 +120,7 @@ button {
     height: 100%; 
     overflow: auto; 
 }*/
-.languages{
+#contact{
     background-image: url(/assets/imgs/forest.jpg);
     background-size: cover;
     height: 600px; 
@@ -131,7 +131,7 @@ button {
     padding: 50px; 
 }
 
-.education {
+.section {
     position: relative;
     top: 60px; 
     text-align: center; 
@@ -139,7 +139,7 @@ button {
 
 }
 
-.education h1 {
+.section h1 {
     background-color: #CBE6EA;
     margin-bottom: 20px;  
     width: 100%; 
@@ -154,6 +154,7 @@ button {
     padding: 30px; 
     border: thick white solid; 
     /* min-width: 340px; */
+
      
 }
 
@@ -178,6 +179,22 @@ button {
    background-color: #CBE6EA;
 }
 
+.descrip-contain{
+    display: flex; 
+    justify-content: center;
+}
+.descrip{
+    position: absolute;
+    bottom: 10%; 
+}
+.year-contain{
+    display: flex;
+    justify-content: center;
+}
+.year{
+    position: absolute;
+    bottom: 5%; 
+}
 img {
     height: 200px;
     max-width: 340px; 
