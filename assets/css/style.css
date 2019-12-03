@@ -82,10 +82,10 @@ button {
     top: 60px; 
     background-image: url(/assets/imgs/mountain.jpg);
     background-size: cover;
-    height: 500px; 
+    /* height: 500px;  */
     margin-top: 20px; 
-    overflow: scroll; 
-   padding-top: 60px;  
+    /* overflow: scroll;  */
+   padding-top: 20px;  
 }
 
 #port-desk{
