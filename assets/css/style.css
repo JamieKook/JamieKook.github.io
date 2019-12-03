@@ -84,6 +84,7 @@ button {
     position: relative; 
     /* top: 60px;  */
     background-image: url(/assets/imgs/mountain.jpg);
+    background-position: right; 
     background-size: cover;
     min-height: 450px; 
     margin-top: 20px; 
