@@ -10,14 +10,38 @@
     </head>
 
     <body>
-        <nav>
+        <nav class="navbar navbar-expand-md bg-white navbar-light justify-content-end sticky-top">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#soft-skills">Skill Set</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <nav>
             <ul>
                 <li><a href="#home">Home</li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#soft-skills">Skill Set</a></li>
             </ul>
-        </nav>
+        </nav> -->
 
         <header id="home" class="row header align-items-center">
            
@@ -35,8 +59,8 @@
             <div class="col-sm-4 d-flex align-items-center justify-content-center"><img class="img-fluid headshot" src="assets/imgs/headshot.jpg"></div>
         </header>
 
-        <div class="about">
-            <div class="overlay">
+        <div class="section about row">
+            <div class="overlay d-flex align-items-center">
                 <div class="container">
                     <p>Web Developer coming from a background in science education and research. Experienced in creating a <a href="http://www.surgeuniverse.com/" target="_blank">web-hosted educational game</a>  that used theory and data-driven feedback in its effectiveness and clear presentation of information. Recently earned a certificate in Full-Stack Web Development from Vanderbilt University, acquiring a functional knowledge of HTML, CSS, Javascript, React.js, Node.js, and more. A great collaborator and communicator, having used my organizational and critical thinking skills to move projects forward both as a leader and as a team member. A quick learner who is always eager to tackle difficult problems and enjoys puzzling through a new challenge. Looking forward to developing new web technologies, utilizing my background and technical skills, and adapting along the way.</p>
                 </div>
@@ -165,10 +189,12 @@
             </div>
         </div>
 
-        <div class="section p-5" id="contact">
-            <h2 class="p-5">Let's create something together</h2>
-            <i class="fas fa-phone-alt m-5">  801-718-6794</i> <br>
-            <i class="fas fa-envelope">  kookjc6@gmail.com</i>
+        <div class="section p-5 flex-column d-flex align-items-center" id="contact">
+            <br>
+            <h2 class="p-4">Let's create something together</h2> <br>
+            <div class="row"><h4><i class="fas fa-phone-alt my-3 mx-1"></i>801-718-6794</h4> </div>
+            <div class="row"><h4><i class="fas fa-envelope my-3 mx-1"></i>kookjc6@gmail.com</h4></div>
+            
 
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

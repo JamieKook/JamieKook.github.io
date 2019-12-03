@@ -17,23 +17,23 @@ body {
 nav {
    /* background-color:#AECCD4; darker color if wanting contrast*/
    /* background-color:  #8CA7AB;  */
-   background-image: url(/assets/imgs/tree.jpg); 
+   /* background-image: url(/assets/imgs/tree.jpg); 
    background-size: cover; 
-   background-position: bottom;
-   text-align: right; 
+   background-position: bottom; */
+   /* text-align: right;  */
     /* margin-bottom: 25px;  */
-    padding: 10px; 
+    /* padding: 10px;  */
 }
 
 ul {
-    display: inline;
-    list-style: none; 
+    /* display: inline;
+    list-style: none;  */
 
 }
 
 li {
-    display: inline-block;
-    padding: 5px;  
+    /* display: inline-block; */
+    /* padding: 5px;   */
 }
 
 .intro {
@@ -74,25 +74,26 @@ button {
 .header {
     background-color: #CBE6EA;
     position: relative; 
-    top: 60px; 
+    /* top: 60px;  */
 }
 
 .about {
     position: relative; 
-    top: 60px; 
+    /* top: 60px;  */
     background-image: url(/assets/imgs/mountain.jpg);
     background-size: cover;
-    /* height: 500px;  */
+    min-height: 450px; 
     margin-top: 20px; 
     /* overflow: scroll;  */
-   padding-top: 20px;  
+   /* padding-top: 20px;   */
+   margin-bottom: 20px; 
 }
 
 #port-desk{
     background-image: url(/assets/imgs/portfolio.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 800px; 
+    height: 900px; 
     background-position: center;
     display: flex; 
     justify-content: center;
@@ -101,6 +102,10 @@ button {
 .fas{
     font-size: xx-large;
 }
+
+/* #contact .fas{
+    font-size: large; 
+} */
 /* #port-pic{
     height: auto;
     width: 900px;
@@ -119,16 +124,22 @@ button {
     color: black;
 }
 
-/*.overlay {
-    background-color: rgba(177,210,245,0.7);
+.overlay {
+    background-color: rgba(30,107,133,0.2); 
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-}*/
+    color: white; 
+    min-height: 450px;
+}
+
 #contact{
     background-image: url(/assets/imgs/forest.jpg);
     background-size: cover;
+    background-position: bottom; 
     height: 600px; 
+    padding-bottom: 100px; 
+ 
 }
 .container {
     width: 80%;
@@ -138,7 +149,6 @@ button {
 
 .section {
     position: relative;
-    top: 60px; 
     text-align: center; 
 
 
