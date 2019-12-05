@@ -12,36 +12,15 @@
 p{
     font-size: 1.25rem;
 }
+
 body {
     background-color: #eaf4f6;
     font-family: 'Domine'; 
     line-height: 150%;
 }
-nav {
-   /* background-color:#AECCD4; darker color if wanting contrast*/
-   /* background-color:  #8CA7AB;  */
-   /* background-image: url(/assets/imgs/tree.jpg); 
-   background-size: cover; 
-   background-position: bottom; */
-   /* text-align: right;  */
-    /* margin-bottom: 25px;  */
-    /* padding: 10px;  */
-}
-
-ul {
-    /* display: inline;
-    list-style: none;  */
-
-}
-
-li {
-    /* display: inline-block; */
-    /* padding: 5px;   */
-}
 
 .intro {
     background-color: #CBE6EA;
-    /* height: 250px;  */
     padding: 30px; 
     text-align: center; 
     display: inline-block; 
@@ -52,44 +31,36 @@ h1{
     font-size: 40px; 
 }
 
-/* #tech{
-    height: 100px; 
-} */
-
 button {
     background-color:  #CBE6EA; 
     border: 2px solid #448B96; 
     padding: 10px; 
     margin: 10px; 
     font-size: 15px; 
-
 }
+
+button a{
+    color: black; 
+}
+
 .line {
     border-top: 3px solid #8A9AA8; 
     width: 10%; 
     margin: 0 auto; 
 }
 
-#headshot{
- /* max-width: 300px !important; */
-}
-
 .header {
     background-color: #CBE6EA;
     position: relative; 
-    /* top: 60px;  */
 }
 
 .about {
     position: relative; 
-    /* top: 60px;  */
     background-image: url(/assets/imgs/mountain.jpg);
     background-position: right; 
     background-size: cover;
     min-height: 450px; 
     margin-top: 20px; 
-    /* overflow: scroll;  */
-   /* padding-top: 20px;   */
    margin-bottom: 20px; 
 }
 
@@ -103,29 +74,41 @@ button {
     justify-content: center;
 }
 
+#port-more{
+    background-image: url(/assets/imgs/desk.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#port-cont{
+    background-image: url(/assets/imgs/lightpaperfibers.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#port-title{
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+}
+
 .fas{
     font-size: xx-large;
 }
-
-/* #contact .fas{
-    font-size: large; 
-} */
-/* #port-pic{
-    height: auto;
-    width: 900px;
-} */
 
 #port-paper{
     margin: 0 auto; 
     position: absolute; 
     top: 48%; 
-  
-    /* z-index: 10;  */
-
 }
 
-#portfolio a{
+#port-paper a{
     color: black;
+}
+
+#port-more a{
+    color: white; 
 }
 
 .overlay {
@@ -156,6 +139,7 @@ button {
     padding-bottom: 100px; 
  
 }
+
 .container {
     width: 80%;
     margin: 30px auto;
@@ -165,8 +149,6 @@ button {
 .section {
     position: relative;
     text-align: center; 
-
-
 }
 
 .section h1 {
@@ -178,57 +160,29 @@ button {
 }
 
 .ed {
-    /* width: 32%;  */
-    /* height: 550px;  */
-    /* float: left;  */
     padding: 30px; 
-    border: thick white solid; 
-    /* min-width: 340px; */
-
-     
-}
-
-.grad {
-    /* margin: 0 1%;  */
-    /*background-color: #C5ECFC;*/
-    background-color: #CBE6EA;
-    
- 
-}
-
-.under {
-    /* margin-left: 1%;  */
-   /* background-color: #BDD4F2;*/
-   background-color: #CBE6EA;
-  
-}
-
-
-.bootcamp {
-   /* background-color: #BDF2D6;*/
-   background-color: #CBE6EA;
+    border: thick white solid;  
+    background-color: #CBE6EA   
 }
 
 .descrip-contain{
     display: flex; 
     justify-content: center;
 }
+
 .descrip{
     position: absolute;
     bottom: 10%; 
 }
+
 .year-contain{
     display: flex;
     justify-content: center;
 }
+
 .year{
     position: absolute;
     bottom: 5%; 
-}
-img {
-    height: 200px;
-    max-width: 340px; 
-
 }
 
 .logo{
@@ -262,20 +216,6 @@ img {
     padding: 50px;  
 }
 
-/* #soft-skills{
-    position: relative;
-    top:60px; 
-} */
-nav{
-    position:fixed; 
-    top: 0;
-    width: 100%; 
-    z-index: 10; 
-}
-nav a{
-    color: white;
-    font-size: 1.5rem; 
-}
 .communication{
     background-image: url(/assets/imgs/collaboration.jpg);
     background-size: cover;
