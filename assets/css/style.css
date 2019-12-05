@@ -72,17 +72,18 @@ button a{
     background-position: center;
     display: flex; 
     justify-content: center;
+    overflow: scroll; 
 }
 
-#port-more{
-    background-image: url(/assets/imgs/desk.jpg);
+/* #port-more{
+    background-image: url(/assets/imgs/portfolio.jpg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-}
+} */
 
 #port-cont{
-    background-image: url(/assets/imgs/lightpaperfibers.png);
+    background-image: url(/assets/imgs/linedpaper.png);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;

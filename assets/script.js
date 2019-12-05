@@ -7,12 +7,12 @@ $('.popover-dismiss').popover({
 })
 
 $(".weather").on("click", function(){
-  $("#port-desk").hide();
+  $("#port-paper").hide();
   $("#port-more").removeAttr("hidden");
   $("#port-more").show(); 
 })
 
 $("#back").on("click", function(){
-  $("#port-desk").show();
+  $("#port-paper").show();
   $("#port-more").hide(); 
 })
