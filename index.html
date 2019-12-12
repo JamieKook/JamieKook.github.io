@@ -16,7 +16,7 @@
             </button>
             
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mx-3">
                     <li class="nav-item">
                         <a class="nav-link text-black" href="#home">Home</a>
                     </li>
@@ -29,6 +29,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skill Set</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/jamie-kook-b7816770/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://github.com/JamieKook"><i class="fab fa-github"></i></a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -40,6 +49,7 @@
                 <h2>Web Developer</h2>
                 <h5>801-718-6794</h5>
                 <h5>kookjc6@gmail.com</h5>
+                <h5><a target="_blank" href="https://www.linkedin.com/in/jamie-kook-b7816770/">LinkedIn</a> | <a target="_blank" href="https://github.com/JamieKook">Github</a> </h5>
                 <div class="buttons m-2">
                     <button><a href="/assets/Jamie Kook Resume.pdf" download="JamieKookResume">Download Resume</a></button>
                     <!-- <button>Contact Me</button> -->
@@ -59,25 +69,34 @@
         <div class="section" id="portfolio">
             <h1>Portfolio</h1>
             <div id="port-desk">
-                <div id="port-paper">
-                    <div class="border-bottom border-dark m-2">
-                        <h2><a target="_blank" href="https://jamiekook.github.io/WeatherDashboard/">Weather Dashboard</a></h2>
-                        <i class="fas fa-cloud-sun"></i>
-                        <p class="description m-0">Find a location's current weather and 5-day forecast.</p>
-                        <button id="weather" class="btn btn-dark m-1 portbtn">Learn More</button>
+                <div class="row" id="port-paper">
+                    <div class="col-2 d-flex align-items-center">
+                        <button class="btn switch"><i class="fas fa-chevron-left"></i></button>
                     </div>
-                    <div class="border-bottom border-dark m-2">
-                        <h2><a target="_blank" href="https://jamiekook.github.io/DayPlanner/">Day Planner</a></h2>
-                        <i class="fas fa-calendar-alt"></i>
-                        <p class="description m-0">Plan out your work day.</p>
-                        <button id="planner" class="btn btn-dark m-1 portbtn">Learn More</button>
+                    <div class="col-8 projectContainer">
+                        <div class="border-bottom border-dark m-2" id="project1">
+                            <h2><a class= "link" target="_blank" href="https://jamiekook.github.io/WeatherDashboard/"><span class="title">Weather Dashboard</span></a></h2>
+                            <i class="fas fa-cloud-sun"></i>
+                            <p class="description m-0">Find a location's current weather and 5-day forecast.</p>
+                            <button id="weather" class="btn btn-dark m-1 portbtn">Learn More</button>
+                        </div>
+                        <div class="border-bottom border-dark m-2" id="project2">
+                            <h2><a class= "link" target="_blank" href="https://jamiekook.github.io/DayPlanner/"><span class="title">Day Planner</span></a></h2>
+                            <i class="fas fa-calendar-alt"></i>
+                            <p class="description m-0">Plan out your work day.</p>
+                            <button id="planner" class="btn btn-dark m-1 portbtn">Learn More</button>
+                        </div>
+                        <div class="border-bottom border-dark m-2" id="project3">
+                            <h2><a class= "link" target="_blank" href="https://jamiekook.github.io/TimedQuiz/"><span class="title">Timed Quiz</span></a></h2>
+                            <i class="fas fa-brain"></i>
+                            <p class="description m-0">Test your trivia knowledge</p>
+                            <button id="quiz" class="btn btn-dark m-1 portbtn">Learn More</button>
+                        </div>
                     </div>
-                    <div class="border-bottom border-dark m-2">
-                        <h2><a target="_blank" href="https://jamiekook.github.io/TimedQuiz/">Timed Quiz</a></h2>
-                        <i class="fas fa-brain"></i>
-                        <p class="description m-0">Test your trivia knowledge</p>
-                        <button id="quiz" class="btn btn-dark m-1 portbtn">Learn More</button>
+                    <div class="col-2 d-flex align-items-center">
+                        <button class="btn switch"><i class="fas fa-chevron-right"></i></button>
                     </div>
+                    
                 </div>
                 <div id="port-more" hidden>
                     <div id="port-cont" class="container p-5 text-left">
