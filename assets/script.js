@@ -6,6 +6,8 @@ $('.popover-dismiss').popover({
     trigger: 'focus'
 })
 
+$('[data-toggle="tooltip"]').tooltip();
+
 $(".portbtn").on("click", function(){
   $("#port-paper").hide();
   let objectName= $(this).attr("id")+"Object"; 
