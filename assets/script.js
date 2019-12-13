@@ -72,6 +72,7 @@ let projectsReverse= projectsArr.reverse();
 function listProjects(index){
   debugger; 
   currentIndex=index; 
+  $("#port-paper").css("position", "static"); 
   for (let i=1; i<4; i++){
     let project= $("#project"+i); 
     let name = projectsReverse[currentIndex];
@@ -89,6 +90,7 @@ function listProjects(index){
     }
     currentIndex++; 
   }
+  $("#port-paper").css("position", "absolute"); 
 }
 
 listProjects(0); 
