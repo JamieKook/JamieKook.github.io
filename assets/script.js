@@ -8,14 +8,12 @@ $('.popover-dismiss').popover({
 
 $(".portbtn").on("click", function(){
   $("#port-paper").hide();
-  $("#port-more").removeAttr("hidden");
-
   let objectName= $(this).attr("id")+"Object"; 
   objectName= eval(objectName);
   console.log(objectName); 
-  writePortfolioData(objectName); 
+  writePortfolioData(objectName);  
+  $("#port-more").removeAttr("hidden");
   $("#port-more").show(); 
-
 })
 
 $("#back").on("click", function(){
@@ -23,6 +21,7 @@ $("#back").on("click", function(){
   $("#port-more").hide(); 
 })
 
+let currentIndex=0; 
 let jobObject ={title: "Got Jobs", 
                   descript: "This web application searches user-selected cities for job postings and for data about the quality of life in that city. Users can save and view favorite jobs.",
                   role: "Collaborative project- coded all functions regarding the job search and map found in the script.js file.",
@@ -68,27 +67,31 @@ let quizObject= {title: "Timed Quiz",
 };
           
 let projectsArr= ["quiz", "planner", "weather", "job"]; 
+let projectsReverse= projectsArr.reverse(); 
 
-function listProjects(){
+function listProjects(index){
   debugger; 
-  let currentIndex=0; 
-  let projectsReverse= projectsArr.reverse(); 
+  currentIndex=index; 
   for (let i=1; i<4; i++){
-    let name = projectsReverse[currentIndex];
-    let object= name+ "Object"; 
-    object = eval(object);
-     
     let project= $("#project"+i); 
-    $(project).find(".link").attr("href", object.linkapp); 
-    $(project).find(".title").text(object.title);
-    $(project).find(".fas").attr("class", object.icon);
-    $(project).find(".description").text(object.shortd);
-    $(project).find(".btn").attr("id", name);
+    let name = projectsReverse[currentIndex];
+    if (name === undefined){
+      project.hide();   
+    } else {
+      project.show(); 
+      let object= name+ "Object"; 
+      object = eval(object);
+      $(project).find(".link").attr("href", object.linkapp); 
+      $(project).find(".title").text(object.title);
+      $(project).find(".fas").attr("class", object.icon);
+      $(project).find(".description").text(object.shortd);
+      $(project).find(".btn").attr("id", name);  
+    }
     currentIndex++; 
   }
 }
 
-listProjects(); 
+listProjects(0); 
 
 function writePortfolioData(objectName){
   $("#port-title").text(objectName.title);
@@ -99,3 +102,23 @@ function writePortfolioData(objectName){
   $("#port-linkapp").attr("href",objectName.linkapp);
   $("#port-linkhub").attr("href",objectName.linkhub);
 }
+
+$("#oldProjects").on("click", function(){
+  debugger; 
+  if (currentIndex> projectsArr.length) {
+    listProjects(0); 
+  } else{
+    listProjects(currentIndex);
+  }
+
+})
+
+
+$("#newProjects").on("click", function(){
+  debugger; 
+  let index= currentIndex-6; 
+  if (index < 0) {
+    index= projectsArr.length-3; 
+  } 
+  listProjects(index); 
+})
