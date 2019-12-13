@@ -24,8 +24,8 @@ $("#back").on("click", function(){
 let currentIndex=0; 
 let jobObject ={title: "Got Jobs", 
                   descript: "This web application searches user-selected cities for job postings and for data about the quality of life in that city. Users can save and view favorite jobs.",
-                  role: "Collaborative project- coded all functions regarding the job search and map found in the script.js file.",
-                  tech: "This project utilizes javascript, css, bootstrap, Animate.css, jQuery, local storage, Mapquest’s static map api, The Muse’s job api, Teleport’s api, and Plotly.js.",
+                  role: "Collaborative project- responsible for all functions regarding the job search and map found in the script.js file.",
+                  tech: "This project utilizes javascript, css, bootstrap, Animate.css, jQuery, local storage, Mapquest’s static map api, The Muse’s job api, Teleport’s api, and Plot.ly.",
                   img: "assets/imgs/GotJobs.png",
                   linkapp:"https://jamiekook.github.io/GotJobs/" ,
                   linkhub:"https://github.com/JamieKook/GotJobs",
@@ -70,7 +70,6 @@ let projectsArr= ["quiz", "planner", "weather", "job"];
 let projectsReverse= projectsArr.reverse(); 
 
 function listProjects(index){
-  debugger; 
   currentIndex=index; 
   $("#port-paper").css("position", "static"); 
   for (let i=1; i<4; i++){
@@ -106,7 +105,6 @@ function writePortfolioData(objectName){
 }
 
 $("#oldProjects").on("click", function(){
-  debugger; 
   if (currentIndex> projectsArr.length) {
     listProjects(0); 
   } else{
@@ -117,7 +115,6 @@ $("#oldProjects").on("click", function(){
 
 
 $("#newProjects").on("click", function(){
-  debugger; 
   let index= currentIndex-6; 
   if (index < 0) {
     index= projectsArr.length-(projectsArr.length%3); 
