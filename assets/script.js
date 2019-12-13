@@ -118,7 +118,7 @@ $("#newProjects").on("click", function(){
   debugger; 
   let index= currentIndex-6; 
   if (index < 0) {
-    index= projectsArr.length-3; 
+    index= projectsArr.length-(projectsArr.length%3); 
   } 
   listProjects(index); 
 })
