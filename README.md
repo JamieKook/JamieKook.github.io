@@ -1,2 +1,2 @@
-# ResumeUnique
-My attempt at making a resume website from scratch
+# Portfolio Website
+This is an interactive portfolio website built with HTML, CSS, Bootstrap, and Javascript
