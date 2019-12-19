@@ -67,8 +67,18 @@ let quizObject= {title: "Timed Quiz",
                     shortd: "Test your trivia knowledge.",
                     icon: "fas fa-brain"
 };
+let numbersObject= {title: "Numbers", 
+                    descript: "An app to display numbers in different representations for children featuring games to help children develop mathematical thinking. Users will work on counting 0-10 using both objects, an abacus, and an audio and visual representation of each numeral as they count.",
+                    role: "Passion project created independently.",
+                    tech: "This project utilizes javascript, css, bootstrap, animate.css, and jQuery.",
+                    img: "assets/imgs/numberswebpage.png",
+                    linkapp:"https://jamiekook.github.io./Numbers" ,
+                    linkhub:"https://github.com/JamieKook/Numbers",
+                    shortd: "Learn how to use an abacus.",
+                    icon: "fas fa-plus"
+};
           
-let projectsArr= ["quiz", "planner", "weather", "job"]; 
+let projectsArr= ["quiz", "planner", "weather", "numbers", "job"]; 
 let projectsReverse= projectsArr.reverse(); 
 
 function listProjects(index){
