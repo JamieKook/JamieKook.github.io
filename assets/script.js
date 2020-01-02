@@ -68,9 +68,9 @@ let quizObject= {title: "Timed Quiz",
                     icon: "fas fa-brain"
 };
 let numbersObject= {title: "Numbers", 
-                    descript: "An app to display numbers in different representations for children featuring games to help children develop mathematical thinking. Users will work on counting 0-10 using both objects, an abacus, and an audio and visual representation of each numeral as they count.",
+                    descript: "A game to teach children how to count using an abacus and displaying numbers in multiple representations.",
                     role: "Passion project created independently.",
-                    tech: "This project utilizes javascript, css, bootstrap, animate.css, and jQuery.",
+                    tech: "This project utilizes javascript, css, bootstrap, Animate.css, jQuery, local storage, and Giphy's API.",
                     img: "assets/imgs/numberswebpage.png",
                     linkapp:"https://jamiekook.github.io./Numbers" ,
                     linkhub:"https://github.com/JamieKook/Numbers",
