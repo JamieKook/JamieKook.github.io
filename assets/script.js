@@ -11,8 +11,7 @@ $('[data-toggle="tooltip"]').tooltip();
 $(".portbtn").on("click", function(){
   $("#port-paper").hide();
   let objectName= $(this).attr("id")+"Object"; 
-  objectName= eval(objectName);
-  console.log(objectName); 
+  objectName= eval(objectName); 
   writePortfolioData(objectName);  
   $("#port-more").removeAttr("hidden");
   $("#port-more").show(); 
@@ -138,7 +137,6 @@ $("#oldProjects").on("click", function(){
 
 
 $("#newProjects").on("click", function(){
-  debugger; 
   let index= currentIndex-6; 
   if (index < 0) {
     index= currentIndex-(projectsArr.length%3); 
