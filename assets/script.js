@@ -128,7 +128,7 @@ function writePortfolioData(objectName){
 }
 
 $("#oldProjects").on("click", function(){
-  if (currentIndex> projectsArr.length) {
+  if (currentIndex >= projectsArr.length) {
     listProjects(0); 
   } else{
     listProjects(currentIndex);
@@ -138,9 +138,10 @@ $("#oldProjects").on("click", function(){
 
 
 $("#newProjects").on("click", function(){
+  debugger; 
   let index= currentIndex-6; 
   if (index < 0) {
-    index= projectsArr.length-(projectsArr.length%3); 
+    index= currentIndex-(projectsArr.length%3); 
   } 
   listProjects(index); 
 })
