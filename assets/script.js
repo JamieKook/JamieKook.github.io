@@ -81,12 +81,12 @@ let numbersObject= {title: "Numbers",
 let employeeTrackerObject ={title: "Employee Tracker", 
                   descript: "This node commandline application allows users to view and update employees, roles, and departments.",
                   role: "Solo project following a set of guidelines",
-                  tech: "This project utilizes javascript, node, and the following npm packages: inquirer, mysql-promisifiy, console.table, and jest",
+                  tech: "This project utilizes javascript, node, sql, and the following npm packages: inquirer, mysql-promisifiy, console.table, and jest",
                   img: "assets/imgs/Employeetracker.png",
-                  linkapp:"None- Local Installation" ,
+                  linkapp:"" ,
                   linkhub:"https://github.com/JamieKook/EmployeeTracker",
                   shortd: "Manager your Employees.",
-                  icon: "fas fa-search"
+                  icon: "fas fa-tasks"
 }; 
           
 let projectsArr= ["quiz", "planner", "weather", "numbers", "job", "employeeTracker"]; 
