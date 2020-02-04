@@ -3,4 +3,4 @@ This is an interactive portfolio website built with HTML, CSS, Bootstrap, and Ja
 
 ![image of webpage](assets/imgs/webpage.png)
 
-[JamieKook.github.io](jamiekook.github.io)
+[https://jamiekook.github.io/](https://jamiekook.github.io/)
