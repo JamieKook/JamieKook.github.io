@@ -80,15 +80,28 @@ let numbersObject= {title: "Numbers",
 let employeeTrackerObject ={title: "Employee Tracker", 
                   descript: "This node commandline application allows users to view and update employees, roles, and departments.",
                   role: "Solo project following a set of guidelines",
-                  tech: "This project utilizes javascript, node, sql, and the following npm packages: inquirer, mysql-promisifiy, console.table, and jest",
+                  tech: "This project utilizes javascript, node, mySQL, and the following npm packages: inquirer, mysql-promisifiy, console.table, and jest",
                   img: "assets/imgs/Employeetracker.png",
                   linkapp:"" ,
                   linkhub:"https://github.com/JamieKook/EmployeeTracker",
                   shortd: "Manager your Employees.",
                   icon: "fas fa-tasks"
 }; 
+
+let burgerLoggerObject ={title: "Burger Logger", 
+                  descript: "This web application allows users to log burgers as avaialbe or eaten and store data in a mySQL database.",
+                  role: "Solo project following a set of guidelines",
+                  tech: "This project utilizes javascript,html, css, bootstraps, node, mySQL, a MVC file structure, and the following npm packages: express, express-handlebars, and mySQL.",
+                  img: "assets/imgs/burgerLogger.png",
+                  linkapp:"https://gentle-cliffs-24688.herokuapp.com/" ,
+                  linkhub:"https://github.com/JamieKook/BurgerLogger",
+                  shortd: "Track delicious burgers.",
+                  icon: "fas fa-hamburger"
+}; 
+
+
           
-let projectsArr= ["quiz", "planner", "weather", "numbers", "job", "employeeTracker"]; 
+let projectsArr= ["planner", "weather", "numbers", "job", "employeeTracker", "burgerLogger"]; 
 let projectsReverse= projectsArr.reverse(); 
 
 function listProjects(index){
