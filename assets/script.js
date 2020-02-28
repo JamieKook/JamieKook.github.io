@@ -91,7 +91,7 @@ let writersLibObject ={title: "The Writer's Library",
 
 
           
-let projectsArr= ["weather", "burgerLogger", "numbers", "job", "employeeTracker", "writersLib"]; 
+let projectsArr= ["weather", "burgerLogger", "job", "employeeTracker", "numbers", "writersLib"]; 
 let projectsReverse= projectsArr.reverse(); 
 
 function listProjects(index){
