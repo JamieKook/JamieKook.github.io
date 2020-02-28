@@ -84,24 +84,24 @@ let employeeTrackerObject ={title: "Employee Tracker",
                   img: "assets/imgs/Employeetracker.png",
                   linkapp:"" ,
                   linkhub:"https://github.com/JamieKook/EmployeeTracker",
-                  shortd: "Manager your Employees.",
+                  shortd: "Manage your Employees.",
                   icon: "fas fa-tasks"
 }; 
 
-let burgerLoggerObject ={title: "Burger Logger", 
-                  descript: "This web application allows users to log burgers as avaialbe or eaten and store data in a mySQL database.",
-                  role: "Solo project following a set of guidelines",
-                  tech: "This project utilizes javascript,html, css, bootstraps, node, mySQL, a MVC file structure, and the following npm packages: express, express-handlebars, and mySQL.",
-                  img: "assets/imgs/burgerLogger.png",
-                  linkapp:"https://gentle-cliffs-24688.herokuapp.com/" ,
-                  linkhub:"https://github.com/JamieKook/BurgerLogger",
-                  shortd: "Track delicious burgers.",
-                  icon: "fas fa-hamburger"
+let writersLibObject ={title: "The Writer's Library", 
+                  descript: "This web application allows users to share their writing with others and to give and recieve feedback.",
+                  role: "Collaborative Project- project lead for coding all aspects except for styling",
+                  tech: "This project utilizes AWS's s3 storage, javascript, html, css, bootstraps, pure, node, mySQL, a MVC file structure, and the following npm packages: express, express-handlebars, express-fileUpload, Passport, and mySQL.",
+                  img: "assets/imgs/writerLib.png",
+                  linkapp:"https://morning-lake-48557.herokuapp.com/" ,
+                  linkhub:"https://github.com/JamieKook/WriterLib",
+                  shortd: "Use s3 to store and share your Stories",
+                  icon: "fas fa-book-open"
 }; 
 
 
           
-let projectsArr= ["planner", "weather", "numbers", "job", "employeeTracker", "burgerLogger"]; 
+let projectsArr= ["planner", "weather", "numbers", "job", "employeeTracker", "writersLib"]; 
 let projectsReverse= projectsArr.reverse(); 
 
 function listProjects(index){
