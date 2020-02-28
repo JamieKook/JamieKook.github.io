@@ -79,7 +79,7 @@ let burgerLoggerObject ={title: "Burger Logger",
 }; 
 
 let writersLibObject ={title: "The Writer's Library", 
-                  descript: "This web application allows users to share their writing with others and to give and recieve feedback.",
+                  descript: "This web application allows users to share their writing with others and to give and receive feedback.",
                   role: "Collaborative Project- project lead for coding all aspects except for styling",
                   tech: "This project utilizes AWS's s3 storage, javascript, html, css, bootstraps, pure, node, mySQL, a MVC file structure, and the following npm packages: express, express-handlebars, express-fileUpload, Passport, and mySQL.",
                   img: "assets/imgs/writerLib.png",
