@@ -45,27 +45,6 @@ let weatherObject={title: "Weather Dashboard",
                   icon: "fas fa-cloud-sun"
 };
 
-let plannerObject= {title: "Day Planner", 
-                    descript: "This web application functions as an event planner for a day of work. Events can be saved or cleared from each time block. The current day and time are represented on the planner in the form of the date and color coded time blocks.",
-                    role: "Solo project following a set of guidelines.",
-                    tech: "This project utilizes javascript, css, bootstrap, jQuery, local storage, and Moment.js.",
-                    img: "assets/imgs/planner.png",
-                    linkapp:"https://jamiekook.github.io/DayPlanner/" ,
-                    linkhub:"https://github.com/JamieKook/DayPlanner",
-                    shortd: "Plan out your work day.",
-                    icon: "fas fa-calendar-alt"
-};
-
-let quizObject= {title: "Timed Quiz", 
-                    descript: "This web application functions as a timed quiz, testing users' knowledge of trivia. Users can select the quiz type. Incorrect answers deduct time from the clock. Scores can be saved and a list of high scores can be viewed.",
-                    role: "Solo project following a set of guidelines.",
-                    tech: "This project utilizes javascript, css, bootstrap, jQuery, and local storage.",
-                    img: "assets/imgs/quiz.png",
-                    linkapp:"https://jamiekook.github.io./TimedQuiz/" ,
-                    linkhub:"https://github.com/JamieKook/TimedQuiz",
-                    shortd: "Test your trivia knowledge.",
-                    icon: "fas fa-brain"
-};
 let numbersObject= {title: "Numbers", 
                     descript: "A game to teach children how to count using an abacus and displaying numbers in multiple representations.",
                     role: "Passion project created independently.",
@@ -88,6 +67,17 @@ let employeeTrackerObject ={title: "Employee Tracker",
                   icon: "fas fa-tasks"
 }; 
 
+let burgerLoggerObject ={title: "Burger Logger", 
+                  descript: "This web application allows users to log burgers as avaialbe or eaten and store data in a mySQL database.",
+                  role: "Solo project following a set of guidelines",
+                  tech: "This project utilizes javascript,html, css, bootstraps, node, mySQL, a MVC file structure, and the following npm packages: express, express-handlebars, and mySQL.",
+                  img: "assets/imgs/burgerLogger.png",
+                  linkapp:"https://gentle-cliffs-24688.herokuapp.com/" ,
+                  linkhub:"https://github.com/JamieKook/BurgerLogger",
+                  shortd: "Track delicious burgers.",
+                  icon: "fas fa-hamburger"
+}; 
+
 let writersLibObject ={title: "The Writer's Library", 
                   descript: "This web application allows users to share their writing with others and to give and recieve feedback.",
                   role: "Collaborative Project- project lead for coding all aspects except for styling",
@@ -101,7 +91,7 @@ let writersLibObject ={title: "The Writer's Library",
 
 
           
-let projectsArr= ["planner", "weather", "numbers", "job", "employeeTracker", "writersLib"]; 
+let projectsArr= ["weather", "burgerLogger", "numbers", "job", "employeeTracker", "writersLib"]; 
 let projectsReverse= projectsArr.reverse(); 
 
 function listProjects(index){
